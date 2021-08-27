@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+.QuickLinks {
+	display: flex;
+	align-items: center;
+
+	width: 100%;
+}
+
+.QuickLinks .linkContainer {
+	display: flex;
+	align-items: center;
+	width: 100%;
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	font-weight: lighter;
+
+	color: #FFF0E9;
+	text-shadow: 0px 0px 5px #FFFBF999;
+	user-select: none;
+}
+
+.QuickLinks .linkContainer .link {
+	flex: 1 1 0px;
+	text-align: center;
+	letter-spacing: 0.015em;
+}
+
+.QuickLinks .linkContainer .link:hover {
+	font-weight: 400;
+	cursor: pointer;
+	text-shadow: 0px 0px 8px #FFFBF9CC;
+	letter-spacing: 0em;
+}
+
+.QuickLinks .linkContainer .link .glowbar {
+	min-height: 4px;
+	max-height: 4px;
+	margin-top: 0.4em;
+
+	background-color: transparent;
+}
+
+.QuickLinks .linkContainer.selected .link .glowbar {
+	background-color: #2DE3FF;
+	box-shadow: 0px 0px 10px #2DE3FF;
+}

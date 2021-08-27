@@ -1,0 +1,40 @@
+.WordSection {
+	font-family: 'Nunito', sans-serif;
+	margin: 1em 0 2em;
+}
+
+.WordSection .title {
+	margin: 0 0 1em 0;
+	
+	font-size: 16px;
+	font-weight: bolder;
+	letter-spacing: 0.1em;
+
+	color: #685E70;
+	text-shadow: 0px 0px 6px #824CADCC;
+}
+
+.WordSection .content {
+	box-sizing: border-box;
+	padding: 0 1.25em;
+	width: 22em;
+	
+	font-size: 18px;
+	font-weight: bolder;
+	letter-spacing: 0.05em;
+
+	color: #FFF0E9;
+}
+
+.WordSection .content.line {
+	border-left: 5px solid #352A40;
+}
+
+.WordSection .highlight {
+	color: #2DE3FF;
+	text-shadow: 0px 0px 6px #2DE3FF;
+}
+
+.WordSection p {
+	margin: 0 0 0.5em;
+}

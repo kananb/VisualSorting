@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import AlgorithmStats from './AlgorithmStats';
+import HomeInfo from './HomeInfo';
+import Navbar from './Navbar';
+import MediaWindow from './MediaWindow';
+import './Navbar.css';
+import './WordSection.css';
+import './AlgorithmStats.css';
+import './QuickLinks.css';
+import './MediaWindow.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<Navbar />
+			<section className="main" style={{
+				display: "flex",
+				justifyContent: "space-around",
+				alignItems: "flex-start",
+			}}>
+				<HomeInfo />
+				<MediaWindow />
+				<AlgorithmStats type="home" />
+			</section>
+		</div>
+	);
 }
 
 export default App;

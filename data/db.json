@@ -1,0 +1,62 @@
+{
+	"home": {
+		"about": "Understanding sorting algorithms has never been a simple task. Even an algorithm like bubble sort can be confusing to learn about if it’s not presented the right way. So, this site was created to help visualize the way each algorithm works and learn about the differences between them. ",
+		"controls": "This algorithm was created in 1928 by the computer science dude Alan Turner because he wanted to do stuff and the time complexity was decided by his wife Maria.",
+		"complexity": {
+			"bestTime": "N/A",
+			"averageTime": "N/A",
+			"worstTime": "N/A",
+			"bestSpace": "N/A"
+		}
+	},
+	"quick": {
+		"description": "Like Merge Sort, Quick Sort is a Divide and Conquer algorithm. It picks an element as pivot and partitions the given array around the picked pivot. There are many different versions of Quick Sort that pick pivot in different ways.",
+		"history": "This algorithm was created in 1928 by the computer science dude Alan Turner because he wanted to do stuff and the time complexity was decided by his wife Maria.",
+		"complexity": {
+			"bestTime": "O(nlog(n))",
+			"averageTime": "O(nlog(n))",
+			"worstTime": "O(n^2)",
+			"bestSpace": "O(nlog(n))"
+		}
+	},
+	"selection": {
+		"description": "Selection sort is an in-place sorting algorithm. It is noted for its simplicity and has performance advantages over more complicated algorithms in certain situations, particularly where auxiliary memory is limited. The algorithm divides the input list into two parts: a sorted sublist of items which is built up from left to right at the front (left) of the list and a sublist of the remaining unsorted items that occupy the rest of the list. Initially, the sorted sublist is empty and the unsorted sublist is the entire input list. The algorithm proceeds by finding the smallest element in the unsorted sublist, swapping it with the leftmost unsorted element, and moving the sublist boundaries one element to the right. ",
+		"history": "This algorithm was created in 1928 by the computer science dude Alan Turner because he wanted to do stuff and the time complexity was decided by his wife Maria.",
+		"complexity": {
+			"bestTime": "O(n^2)",
+			"averageTime": "O(n^2)",
+			"worstTime": "O(n^2)",
+			"bestSpace": "O(1)"
+		}
+	},
+	"bubble": {
+		"description": "This algorithm doesn't have a description yet.",
+		"history": "This algorithm was created in 1928 by the computer science dude Alan Turner because he wanted to do stuff and the time complexity was decided by his wife Maria.",
+		"complexity": {
+			"bestTime": "O(n)",
+			"averageTime": "O(n^2)",
+			"worstTime": "O(n^2)",
+			"bestSpace": "O(1)"
+		}
+	},
+	"insertion": {
+		"description": "This algorithm doesn't have a description yet.",
+		"history": "This algorithm was created in 1928 by the computer science dude Alan Turner because he wanted to do stuff and the time complexity was decided by his wife Maria.",
+		"complexity": {
+			"bestTime": "O(n)",
+			"averageTime": "O(n^2)",
+			"worstTime": "O(n^2)",
+			"bestSpace": "O(1)"
+		}
+	},
+	"merge": {
+		"description": "This algorithm doesn't have a description yet.",
+		"history": "This algorithm was created in 1928 by the computer science dude Alan Turner because he wanted to do stuff and the time complexity was decided by his wife Maria.",
+		"complexity": {
+			"bestTime": "O(nlog(n))",
+			"averageTime": "O(nlog(n))",
+			"worstTime": "O(nlog(n))",
+			"bestSpace": "O(n)"
+		}
+	}
+}
