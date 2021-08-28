@@ -4,15 +4,15 @@ function QuickLinks() {
 	const names = ["Quick", "Selection", "Bubble", "Insertion", "Merge"];
 	const [selected, setSelected] = useState(null);
 	
-	const handleClick = (e) => {
-		setSelected(e.target.id);
+	const handleClick = (name) => {
+		setSelected(name);
 	};
 
 	const links = [];
 	for (let name of names) {
 		links.push((
-			<div className={name === selected ? "linkContainer selected" : "linkContainer"} onClick={handleClick}>
-				<div className="link" id={name}>
+			<div className={name === selected ? "linkContainer selected" : "linkContainer"}>
+				<div className="link" onClick={() => handleClick(name)}>
 					{name}
 					<div className="glowbar"></div>
 				</div>

@@ -1,0 +1,23 @@
+.MediaLinks {
+	position: absolute;
+	bottom: 1%; left: 1%;
+	width: 10em;
+}
+
+.MediaLinks .link a {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	
+	text-decoration: none;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.1em;
+	
+	color: #DE2E91;
+	text-shadow: 0px 0px 5px #DE2E91;
+}
+
+.MediaLinks .link img {
+	margin-right: 0.5em;
+}

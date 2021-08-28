@@ -1,0 +1,48 @@
+.SlideMenu {
+	margin-bottom: -0.5em;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+
+	color: #FFF0E9;
+}
+
+.SlideMenu .slideButtonWrapper {
+	width: 1.5em;
+	height: 1.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.SlideMenu .slideButtonWrapper:hover {
+	cursor: pointer;
+}
+
+.SlideMenu .slideLeft {
+	width: 0;
+	height: 0;
+
+	border-right: 13px solid #FFF0E9;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+}
+
+.SlideMenu .slideRight {
+	width: 0;
+	height: 0;
+	border-left: 13px solid #FFF0E9;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+}
+
+.SlideMenu .slideButtonWrapper:hover .slideLeft,
+.SlideMenu .slideButtonWrapper:hover .slideRight {
+	filter: drop-shadow(0px 0px 3px #FFFBF999);
+}
+
+.SlideMenu .option {
+	text-align: center;
+	user-select: none;
+	word-wrap: unset;
+}

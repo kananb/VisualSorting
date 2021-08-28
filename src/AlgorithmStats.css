@@ -4,3 +4,7 @@
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 }
+
+.AlgorithmInfo .WordSection:first-child {
+	margin-top: 7em;
+}

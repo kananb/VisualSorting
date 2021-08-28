@@ -1,3 +1,43 @@
 .MediaWindow {
-	min-width: 40%;
+	min-width: 50%;
+	min-height: 20%;
+	margin: 1em 2em 0;
+}
+
+.MediaWindow .content {
+	margin-top: 1.5em;
+}
+
+.MediaWindow .canvas {
+	min-width: 100%;
+	height: 550px;
+
+	background-image: url(./canvas.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.MediaWindow .canvas img {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.MediaWindow .menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 1em 2em;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+
+	background-color: #352A40;
+}
+
+.MediaWindow .menu .leftControls {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
