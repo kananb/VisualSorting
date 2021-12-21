@@ -3,7 +3,7 @@ import WordSection from "./WordSection";
 
 function AlgorithmStats({ type }) {
 	const [complexity, setComplexity] = useState(null);
-	const [stats, setStats] = useState((
+	const stats = useState((
 		<div className="stats" style={{
 			display: "flex",
 			justifyContent: "space-between",
@@ -20,7 +20,7 @@ function AlgorithmStats({ type }) {
 				<p>0</p>
 			</div>
 		</div>
-	));
+	))[0];
 
 	useEffect(() => {
 		fetch(`http://localhost:8000/${type}`)
@@ -55,7 +55,7 @@ function AlgorithmStats({ type }) {
 				</div>
 			));
 		});
-	}, []);
+	});
 
 	return (
 		<div className="AlgorithmInfo">

@@ -1,18 +1,8 @@
-import { useEffect, useState } from "react";
 import WordSection from "./WordSection";
 
 function HomeInfo() {
-	const [about, setAbout] = useState(null);
-	const [controls, setControls] = useState(null);
-
-	useEffect(() => {
-		fetch("http://localhost:8000/home")
-		.then(res => res.json())
-		.then((data) => {
-			setAbout(data["about"]);
-			setControls(data["controls"]);
-		});
-	}, []);
+	const about = "Understanding sorting algorithms has never been a simple task. Even an algorithm like bubble sort can be confusing to learn about if it’s not presented the right way. So, this site was created to help visualize the way each algorithm works and learn about the differences between them.";
+	const controls = "This algorithm was created in 1928 by the computer science dude Alan Turner because he wanted to do stuff and the time complexity was decided by his wife Maria.";
 
 	return (
 		<div className="HomeInfo">
